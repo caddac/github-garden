@@ -1,0 +1,33 @@
+plants:
+  - name: "Tomato"
+    location: "Planter A"
+    planting_date: "2024-03-15"
+    harvest_date: "2024-07-15"
+    coordinates: { x: 100, y: 100 }
+    color: "#FF0000"
+  
+  - name: "Basil"
+    location: "Planter B"
+    planting_date: "2024-04-01"
+    harvest_date: "2024-09-01"
+    coordinates: { x: 200, y: 100 }
+    color: "#00FF00"
+  
+  - name: "Pepper"
+    location: "Planter C"
+    planting_date: "2024-03-20"
+    harvest_date: "2024-08-15"
+    coordinates: { x: 300, y: 100 }
+    color: "#FFA500"
+
+garden_layout:
+  planters:
+    - id: "Planter A"
+      position: { x: 100, y: 100 }
+      size: { width: 200, height: 100 }
+    - id: "Planter B"
+      position: { x: 200, y: 100 }
+      size: { width: 200, height: 100 }
+    - id: "Planter C"
+      position: { x: 300, y: 100 }
+      size: { width: 200, height: 100 }
